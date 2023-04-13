@@ -1,0 +1,8 @@
+@import "../fonts/inter/inter.css";
+@import "../vendor/normalize.css";
+@import "../vendor/variables.css";
+@import "../blocks/root/root.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-button/header__lang-button.css";
+@import "../blocks/header/__lang-button/_active/header__lang-button_active.css";
