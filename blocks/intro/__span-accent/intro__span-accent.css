@@ -1,0 +1,6 @@
+.intro__span-accent {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--white-color);
+}

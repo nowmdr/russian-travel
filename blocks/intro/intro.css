@@ -1,22 +1,25 @@
-.lead {
+.intro {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-top: 48px;
-    /*width: 100%;*/
-    margin-left: auto;
+    align-items: flex-start;
     margin-right: auto;
+    margin-left: auto;
 }
 
 @media screen and (min-width: 1280px) {
-    .lead {
-        margin-top: 56px;
+    .intro {
         max-width: 984px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px)  {
-    .lead {
+    .intro {
         max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px)  {
+    .intro {
+        margin: 0 var(--container-spacing);
     }
 }
