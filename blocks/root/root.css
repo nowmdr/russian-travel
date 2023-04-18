@@ -1,4 +1,5 @@
 .root {
     font-family: 'Inter', Arial, sans-serif;
     background-color: var(--dark-gray-color);
+    margin: 0 auto;
 }

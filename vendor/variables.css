@@ -10,4 +10,10 @@
   --large-container: 928px;
   --medium-container: 720px;
   --small-container: 288px;
+  --container-spacing: 48px;
+}
+@media screen and (max-width: 767px)  {
+  :root {
+    --container-spacing: 16px;
+  }
 }
