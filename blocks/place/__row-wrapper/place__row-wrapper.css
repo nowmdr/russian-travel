@@ -1,0 +1,16 @@
+.place__row-wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+@media screen and (min-width: 1280px) {
+    .place__row-wrapper {
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .place__row-wrapper {
+        gap: 28px;
+    }
+}

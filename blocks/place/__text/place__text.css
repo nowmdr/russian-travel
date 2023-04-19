@@ -1,0 +1,10 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+@media screen and (max-width: 767px) {
+    .place__text {
+        margin: 0 var(--container-spacing);
+    }
+}
