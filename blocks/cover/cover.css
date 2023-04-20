@@ -1,0 +1,36 @@
+.cover {
+    position: relative;
+    background: url("../../images/cover-image.png") no-repeat center center / cover;
+    margin: 92px auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        max-width: var(--x-large-container);
+        min-height: 740px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        min-height: 480px;
+        margin-top: 90px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-height: 200px;
+        margin-top: 66px;
+        margin-bottom: 64px;
+    }
+}
+
+
