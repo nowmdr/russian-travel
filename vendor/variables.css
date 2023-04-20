@@ -1,16 +1,10 @@
 :root {
   /*colors*/
-  --very-dark-gray-color: #1E1E1E;
-  --gray-color:  #AAAAAA;
-  --dark-gray-color:  #2A2C2F;
-  --blue-color:  #2f80ed;
-  --black-color: #000000;
+  --gray-color: #AAAAAA;
+  --dark-gray-color: #2A2C2F;
   --white-color: #ffffff;
   /*containers*/
   --x-large-container: 1184px;
-  --large-container: 928px;
-  --medium-container: 720px;
-  --small-container: 288px;
   --container-spacing: 48px;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
